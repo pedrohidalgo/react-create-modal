@@ -10,7 +10,7 @@ class SimpleModal extends PureComponent {
   render() {
     return (
       <div>
-        <button onClick={() => this.onOpen()}>Open Modal</button>
+        <button onClick={() => this.onOpen()}>Open Simple Modal</button>
         <Modal onClose={() => this.onClose()} isOpen={this.state.isOpen}>
           <div>
             <h4>Hello World</h4>

@@ -1,7 +1,7 @@
 React Create Modal
 ======================
 
-React Component to show a Modal Box [Demo](https://pedrohidalgo.github.io/react-create-modal)
+React Component to show a Modal Box [See demo](https://pedrohidalgo.github.io/react-create-modal)
 
 ## Installation
 
