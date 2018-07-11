@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
+    "lint": "eslint ./src --ext .js,.jsx",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "lint": "eslint ./src --ext .js,.jsx"
+    "build-storybook": "NODE_ENV=test build-storybook -o docs"
   },
   "author": {
     "name": "Pedro Hidalgo",
